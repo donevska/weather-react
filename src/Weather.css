@@ -1,0 +1,56 @@
+.Weather {
+  font-family: "Lato", sans-serif;
+  max-width: 900px;
+  margin: 30px auto 10px;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  padding: 20px 20px 20px 20px;
+  line-height: 1.5;
+  border: 2px solid #3a444c;
+  border-radius: 20px;
+  max-width: 900px;
+}
+
+h2,
+h5 {
+  color: #006ec5;
+}
+
+button {
+  margin: 0 0 10px 0;
+}
+
+ul {
+  padding: 20px 0;
+}
+li {
+  list-style: none;
+  color: #006ec5;
+  margin: 0;
+  padding: 0;
+}
+em {
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+}
+
+.row {
+  margin: 20px 0;
+}
+strong {
+  color: black;
+  opacity: 0.8;
+  font-size: 70px;
+}
+.float-left {
+  position: relative;
+  top: -20px;
+}
+.units {
+  position: relative;
+  top: -38px;
+  font-size: 15px;
+  cursor: default;
+  font-size: 25px;
+}
