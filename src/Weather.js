@@ -14,64 +14,83 @@ export default function Weather() {
   };
 
   return (
-    <div className="Weather">
-      <form className="mb-3">
-        <div className="row">
-          <div className="col-6">
-            <input
-              type="search"
-              placeholder="Pick a city.."
-              className="form-control"
-              autoComplete="off"
-              autoFocus="on"
-            />
-          </div>
-          <div className="col-2">
-            <button type="submit" className="btn btn-primary w-100">
-              {" "}
-              Search
-            </button>
-          </div>
-          <div className="col-3">
-            <button type="submit" className="btn btn-primary">
-              Current location
-            </button>
-          </div>
-        </div>{" "}
-      </form>
-
-      <div className="overview">
-        <div className="row">
-          <div className="col-3">
-            <h1>{weatherData.city}</h1>
-
-            <h5>{weatherData.date}</h5>
-            <em>{weatherData.description}</em>
-          </div>
-
-          <div className="col-4">
-            <div className="clearfix weather-temperature">
-              <img
-                src={weatherData.imgUrl}
-                alt={weatherData.description}
-                className="float-left"
+    <div>
+      <div className="Weather">
+        <form className="mb-3">
+          <div className="row">
+            <div className="col-6">
+              <input
+                type="search"
+                placeholder="Pick a city.."
+                className="form-control"
+                autoComplete="off"
+                autoFocus="on"
               />
-
-              <strong>{weatherData.temperature}</strong>
-              <span className="units">
-                <a href="/">°C</a> | <a href="/">°F</a>
-              </span>
             </div>
-          </div>
-          <div className="col-3">
-            <ul>
-              <li> Feels like: {weatherData.feelsLike}°C</li>
-              <li>Humidity: {weatherData.humidity}%</li>
-              <li>Wind: {weatherData.wind} km/h</li>
-            </ul>
+            <div className="col-2">
+              <button type="submit" className="btn btn-primary w-100">
+                {" "}
+                Search
+              </button>
+            </div>
+            <div className="col-3">
+              <button type="submit" className="btn btn-primary">
+                Current location
+              </button>
+            </div>
+          </div>{" "}
+        </form>
+
+        <div className="overview">
+          <div className="row">
+            <div className="col-3">
+              <h1>{weatherData.city}</h1>
+
+              <h5>{weatherData.date}</h5>
+              <em>{weatherData.description}</em>
+            </div>
+
+            <div className="col-4">
+              <div className="clearfix weather-temperature">
+                <img
+                  src={weatherData.imgUrl}
+                  alt={weatherData.description}
+                  className="float-left"
+                />
+
+                <strong>{weatherData.temperature}</strong>
+                <span className="units">
+                  <a href="/">°C</a> | <a href="/">°F</a>
+                </span>
+              </div>
+            </div>
+            <div className="col-3">
+              <ul>
+                <li> Feels like: {weatherData.feelsLike}°C</li>
+                <li>Humidity: {weatherData.humidity}%</li>
+                <li>Wind: {weatherData.wind} km/h</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+      <small>
+        <a
+          href="https://github.com/donevska/weather-react"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open-source code
+        </a>{" "}
+        by{" "}
+        <a
+          href="https://www.linkedin.com/in/angela-donevska"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Angela Donevska
+        </a>{" "}
+      </small>
     </div>
   );
 }
