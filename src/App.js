@@ -11,3 +11,6 @@ export default function App() {
     </div>
   );
 }
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
