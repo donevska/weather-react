@@ -10,44 +10,45 @@
   max-width: 900px;
 }
 
-h2,
+.Weather h2,
 h5 {
   color: #006ec5;
 }
 
-button {
+.Weather button {
   margin: 0 0 10px 0;
 }
 
-ul {
+.Weather ul {
   padding: 20px 0;
 }
-li {
+.Weather li {
   list-style: none;
   color: #006ec5;
   margin: 0;
   padding: 0;
+  text-align: justify;
 }
-em {
+.Weather em {
   font-size: 25px;
 }
-a {
+.Weather a {
   text-decoration: none;
 }
 
-.row {
+.Weather .row {
   margin: 20px 0;
 }
-strong {
+.Weather strong {
   color: black;
   opacity: 0.8;
   font-size: 70px;
 }
-.float-left {
+.Weather .float-left {
   position: relative;
   top: -20px;
 }
-.units {
+.Weather .units {
   position: relative;
   top: -38px;
   font-size: 15px;

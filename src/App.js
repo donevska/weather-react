@@ -7,7 +7,9 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <Weather />
+      <div className="container">
+        <Weather />
+      </div>
     </div>
   );
 }
