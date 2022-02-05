@@ -1,13 +1,12 @@
 .Weather {
   font-family: "Lato", sans-serif;
-  max-width: 900px;
   margin: 30px auto 10px;
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   padding: 20px 20px 20px 20px;
   line-height: 1.5;
   border: 2px solid #3a444c;
   border-radius: 20px;
-  max-width: 900px;
+  text-align: center;
 }
 
 .Weather h2,
@@ -55,4 +54,9 @@ h5 {
   cursor: default;
   font-size: 25px;
   margin-left: 10px;
+}
+
+.Weather canvas {
+  display: inline-block;
+  margin-top: 15px;
 }

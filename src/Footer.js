@@ -4,14 +4,7 @@ export default function Footer() {
   return (
     <div className="small">
       <small>
-        <a
-          href="https://github.com/donevska/weather-react"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Open-source code
-        </a>{" "}
-        by{" "}
+        This project was coded by{" "}
         <a
           href="https://www.linkedin.com/in/angela-donevska"
           target="_blank"
@@ -19,6 +12,14 @@ export default function Footer() {
         >
           Angela Donevska
         </a>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/donevska/weather-react"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          open-sourced on Github.
+        </a>
       </small>
     </div>
   );
