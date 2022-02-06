@@ -7,3 +7,11 @@
 .App .container {
   max-width: 800px;
 }
+
+.App footer {
+  font-size: 14px;
+}
+
+.App a {
+  text-decoration: none;
+}
