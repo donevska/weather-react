@@ -1,0 +1,17 @@
+.WeatherForecast {
+  text-align: center;
+}
+
+.WeatherForecast .card {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border: 2px solid #3a444c;
+  border-radius: 20px;
+}
+
+.WeatherForecast .min-temperature {
+  opacity: 0.5;
+}
+
+.WeatherForecast canvas {
+  max-width: 45px;
+}

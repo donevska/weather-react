@@ -1,3 +1,7 @@
 .Footer {
   font-family: "Lato", sans-serif;
 }
+
+.Footer .small {
+  font-size: 14px;
+}
