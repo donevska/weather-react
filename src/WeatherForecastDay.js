@@ -34,6 +34,7 @@ export default function WeatherForecastDay(props) {
             className="forecast-image"
             code={props.data.weather[0].icon}
           />
+          <p>{props.data.weather[0].main}</p>
         </div>
       </div>
     </div>
