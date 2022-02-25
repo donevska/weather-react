@@ -26,7 +26,6 @@ h5 {
   color: #006ec5;
   margin: 0;
   padding: 0;
-  text-align: justify;
 }
 .Weather em {
   font-size: 25px;
@@ -61,8 +60,8 @@ h5 {
   margin-top: 15px;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   li {
-    text-align: center;
+    text-align: justify;
   }
 }
